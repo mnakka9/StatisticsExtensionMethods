@@ -4,12 +4,12 @@ Mean, Variance, Standard Deviation as IEnumerable extensions
 # Features!
 
  - IEnumerable Extension methods for Variance and Standrad Deviation.
-    ```sh
+    ```cs
     new IEnumerable<Int32>(){1,2,3,4,5,6}.Variance();
     ```
 - Extension methods for Average, Variance and Standard Deviation for field in List<Class>
    For example:
-  ```sh
+  ```cs
             var employees = new List<Employee>()
             {
                 new Employee(){Id=1,Name="M",Age=1},
