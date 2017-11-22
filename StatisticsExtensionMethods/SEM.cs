@@ -110,7 +110,9 @@ namespace StatisticsExtensionMethods
         /// <returns></returns>
         public static double Variance<T>(this IEnumerable<T> values, Func<T, double> fieldSelector) 
         {
-            return values.Select(fieldSelector).Variance();
+            return values
+                    .Select(fieldSelector)
+                    .Variance();
         }
 
     }
